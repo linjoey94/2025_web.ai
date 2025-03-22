@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Table</title>
+  <style>
+     table {
+        width: 650px;
+        margin: 0 auto;
+        border-collapse: collapse;
+     }
+     tr, td, th {
+        border: 1px black solid;
+        text-align: center
+     }
+
+     .style1 {
+        background-color: rgb(54, 243, 243);
+        color: black;
+     }
+
+     /* caption {
+        font-size: 19px;
+        color: #C5089F
+     } */
+  </style>
+</head>
+
+<body>
+  <table>
+     <thead>
+        <tr class="style1">
+           <th rowspan="2" ></th>
+           <th colspan="2" >上學期</th>
+           <th colspan="2" >下學期</th>
+        </tr>
+        <tr class="style1">
+            <th >男生</th>
+            <th >女生</th>
+            <th >男生</th>
+            <th >女生</th>
+         </tr>
+     </thead>
+  <tbody>
+     <tr class="style1">
+        <td >資工系</td>
+        <td>1000</td>
+        <td>500</td>
+        <td>1100</td>
+        <td>600</td>
+     </tr>
+     <tr class="style1">
+        <td>資管系</td>
+        <td>800</td>
+        <td>600</td>
+        <td>900</td>
+        <td>650</td>
+     </tr>
+     <tr style="background-color: pink; ">
+        <td style="text-align: left;" colspan="5" >註:以上資料僅供參考
+        </td>
+
+     </tr>
+  </tbody>
+</table>
+</body>
+</html>
